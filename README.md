@@ -2,7 +2,7 @@
 Search for different words and hashtags from Twitter and get a chance to see the 20 most used words from the latest 100 tweets with data visualizer.
 
 ## Demo
-![](/src/assets/demo.gif)]
+![](https://gph.is/g/aQOdN0k)]
 
 ## Getting started
  How to get started with the Twitter APIs

@@ -10,6 +10,7 @@ function App (){
   const [apiData, setData] = useState({ statuses: []});
   const [chart, setChart] = useState(false);
   const [inputValue, setInput] = useState('');
+
   // event handlers
   const changeInput = value => setInput(value);
   const chartController = () => setChart(!chart);
@@ -54,7 +55,7 @@ function App (){
         pullDownThreshold={10}
         onRefresh={handleRefresh}
         triggerHeight="auto"
-        backgroundColor="black" >
+        backgroundColor="white" >
         <div className="container">
             <div className="label"> &#9660; Pull To Refresh &#9660; </div>
         </div>

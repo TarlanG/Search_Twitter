@@ -24,7 +24,7 @@ function Chart(props){
         // check first index of the strings to avoid hashtags and handles  
           && /[a-zA-Z]/.test(arr[i][0]) 
           // check if the string is link
-            && arr.slice(0,4) !== 'http'
+            && !arr.includes('http')
             // check length of each string to avoid digits and punctuation marks
               && arr[i].length > 1 ){
       // store all corresponding strings to res array
@@ -52,7 +52,7 @@ function Chart(props){
   
   // get array of 20 most used words from sorted array
   const topKeys = uniqueKeys.slice(0,20);
-
+console.log("afafasfasfsf",topKeys)
   // iterate through array of top 20 words
   for ( let key of topKeys){
     // create key-value pair with sorted keys and their counts
